@@ -1,4 +1,4 @@
-package operacoesBasicas;
+package list.operacoesBasicas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -45,7 +45,7 @@ public class ListaTarefas {
 
         listaTerefas.removerTarefa("Tarefa 2");
         System.out.println("Numero total de elementos na lista:" + listaTerefas.obterNumeroTotalTarefas());
-        
+
         listaTerefas.obterDescricoesTarefas();
     }
 }
